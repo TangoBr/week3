@@ -2,11 +2,16 @@
     background-origin: border-box;
 }
 #navbar {
-    /* position: fixed; */
+    position: fixed;
     color: white;
     width: 100%;
     background-color: blue;
-    height: 20px 
+    height: 20px; 
+}
+
+h1 {
+    position: relative;
+    top: 25px;
 }
 
 #p1 {
@@ -54,8 +59,17 @@ div {
     float: right;
 }
 
+.clr {
+    background: none;
+    border: none;
+    clear: both;
+    height: auto;
+    width: auto;
+}
+
 #div3 {
     /* position: relative; */
     margin: 20px;
+    width: 80%;
 
 }
