@@ -1,0 +1,116 @@
+* {
+    margin: 0%; 
+    padding: 0%;
+    background-origin: border-box;
+}
+
+p {
+    border: 3px green solid;
+}
+
+.margin {
+    margin: 16px;
+}
+
+.margin-x {
+    margin-top: 16px;
+    margin-bottom: 16px;    
+}
+
+.margin-y {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.padding {
+    padding: 16px;
+} 
+
+.padding-x{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.padding-y {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.margin-auto {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: none;
+    margin-top: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 40%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #333333;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.display {
+    border: solid red 1px;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.relative {
+    height: 400px;
+    width: 400px;
+    background-color: #333333;
+    position: relative;
+    margin-top: none;
+    margin-left: 100px;
+}
+
+.absolute {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #cccccc;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.fixed {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 0%;
+}
