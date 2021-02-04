@@ -9,6 +9,7 @@
     height: 25vh;
     background-color: #333333;
     margin: 5%;
+    color: white;
 }
 
 .div-1 {
@@ -61,3 +62,14 @@
     height: 50%;
 }
 
+div >p {
+    color: blue;
+}
+
+div > section {
+    color: green;
+}
+
+input[type=email] {
+    border: 3px solid red;
+}
