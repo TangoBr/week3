@@ -1,5 +1,5 @@
 *   {
-    background-origin: border-box;
+    box-sizing: border-box;
 }
 #navbar {
     position: fixed;
@@ -89,16 +89,19 @@ div {
 display: inline-block;
 }
 
-#pdiv {
-    text-align: center;
+.pdiv {
+    /* margin: auto; */
+    position: relative;
+    /* text-align: center; */
     height: 300px;
     width: 300px;
 background-color: #2c3539;
 }
 
-#innerdiv {
-    display: inline-block;
-    text-align: center;
+.innerdiv {
+    position: absolute;
+    /* display: inline-block; */
+    /* text-align: center; */
     margin: 90px;
     height: 100px;
     width: 100px;
