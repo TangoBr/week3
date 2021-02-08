@@ -3,16 +3,16 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="hw3-flexbox.css">
 		<!-- Font Awesome -->
 		<script src="https://kit.fontawesome.com/47ace9daa2.js" crossorigin="anonymous"></script>
 		<!-- Styles -->
+		<link rel="stylesheet" href="hw3.css" />
 		<title>Document</title>
 	</head>
 	<body>
 		<!-- Navigation -->
 		<nav>
-			<div class="">
+			<div class="container d-flex">
 				<h1>Heading</h1>
 				​
 				<ul class="d-flex">
@@ -21,7 +21,7 @@
 					<li>Contact</li>
 				</ul>
 			</div>
-		</nav> 
+		</nav>
 		<!-- Showcase -->
 		<section id="showcase">
 			<div class="container d-flex">
@@ -34,10 +34,11 @@
 				<button class="btn btn-lg">Action</button>
 			</div>
 		</section>
+		<!-- Cards -->
 		<section id="cards">
 			<div class="container d-flex">
 				<div class="card d-flex">
-					<div id="column">
+					<div>
 						<i class="fas fa-cogs"></i>
 						<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 						<p>
@@ -74,12 +75,13 @@
 				</div>
 			</div>
 		</section>
-		<!--<footer>-->
+		<!-- Footer -->
+		<footer>
 			<div class="container d-flex">
 				<h3>Thanks for Visiting our Site!</h3>
 				<p>&copy; 2021 Custom Websites</p>
 				<a href="#showcase">Back to Top</a>
-			</div> 
-		</footer> 
+			</div>
+		</footer>
 	</body>
 </html>
